@@ -1,0 +1,5 @@
+Login Azure Console -> Search Bar -> Virtual machines -> Select The Virtual machines -> Create -> Virtual machine -> Select The Resource group -> 
+Virtual machine name -> Name -> Username -> Name -> SSH public key source(Select The Use existing key stored in Azure) -> Public inbound ports(None) -> 
+Select The Next: Networking > -> NIC network security group(Select The Advanced) -> Configure network security group(Select The Security Group) -> 
+Select The Option Delete public IP and NIC when VM is deleted -> Select The Next: Advanced > -> Custom data -> Copy And Paste The instance-setup-script -> 
+Next: Review + create > -> Create
