@@ -1,0 +1,17 @@
+Step 1. Create Storage Account
+
+Download The Zip File website.zip
+
+Login Azure Console -> Search Bar -> Storage accounts -> Select The Storage accounts -> Create -> Select The Resource group -> Storage account name -> Name -> Go To Review + create Tab -> Create
+
+
+
+Step 2. Enable Static Website Hosting
+
+Search Bar -> Storage accounts -> Select The Storage accounts -> Select The Storage account -> Click On Data management On Left menu -> Select The Static website -> Click On Enabled -> Index document name(index.html) -> Save ->
+
+
+
+Step 3. Upload Website Files
+
+Click On Data storage On Left menu -> Select The Containers -> Click On $web -> Upload -> Upload All Website Files And Folders 
