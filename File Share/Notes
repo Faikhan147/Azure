@@ -1,0 +1,8 @@
+What is File Share ?
+
+It is a File Share service in Azure where we can share the same data between the multiple Virtual machines.
+
+
+Advantage:-
+
+In File Share there is no limit of storage we can store unlimited data and the charges apply accordingly.
