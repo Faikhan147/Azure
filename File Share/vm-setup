@@ -1,0 +1,4 @@
+apt update
+apt install cifs-utils -y
+sudo mkdir faisal
+sudo mount -t cifs //STORAGE-ACCOUNT-NAME.file.core.windows.net/FILE-SHARE-NAME faisal -o username=STORAGE-ACCOUNT-NAME,password=STORAGE-ACCOUNT-KEY,vers=3.0
