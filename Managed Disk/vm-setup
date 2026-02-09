@@ -1,0 +1,14 @@
+Step 1. Format the disk (ext4)
+
+sudo mkfs -t ext4 /dev/sdc
+sudo mkdir /data
+sudo mount /dev/sdc /data
+lsblk
+df -h
+
+
+Step 2. Create The File
+
+cd /data
+touch faisal.txt
+ls -l
