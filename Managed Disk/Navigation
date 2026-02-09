@@ -1,0 +1,19 @@
+Step 1. Create The Managed Disk
+
+Create The Virtual Machine with Region (Asia Pacific) Australia East And Zone 1
+
+Login Azure Console -> Search Bar -> Disks -> Select The Disks -> Create -> Select The Resource group -> Disk name -> Name -> Region((Asia Pacific) Australia East) -> 
+Availability zone(Zone 1) -> Size(Change size) -> Custom disk size (GiB) (50) -> OK -> Go To Review + create Tab -> Create
+
+
+
+Step 2. Attach Disk To Virtual Machine
+
+Search Bar -> Virtual machines -> Select The Virtual machines -> Click The Virtual machine -> Click On Settings On Left menu -> Click On Disks -> Attach existing disks -> 
+Disk name(Select The Disk) -> Apply
+
+
+
+Step 3. VM Setup
+
+VM Setup Using vm-setup
