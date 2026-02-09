@@ -1,0 +1,3 @@
+What is Managed Disk ?
+
+It is a Block Storage in Azure that is attached to a Virtual Machine and is used to store the data persistently.
