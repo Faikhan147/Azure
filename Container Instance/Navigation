@@ -1,6 +1,6 @@
 Step 1. Create The Container Instance
 
-Login Azure Console -> Search Bar -> Container Instances -> Select The Container Instances -> Create -> Select The Resource group -> 
+Login Azure Console -> Search Bar -> Container instances -> Select The Container instances -> Create -> Select The Resource group -> 
 Container name -> Name -> Image source(Other registry) -> Image(faisalkhan35/my-website:1) -> Go To Review + create Tab -> Create
 
 
