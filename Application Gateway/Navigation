@@ -3,7 +3,7 @@ Step 1. Create The Subnet For Application Gateway
 Create The Virtual Machine with Go To Networking Tab -> Public IP(None) by using the vm-setup-script
 
 Login Azure Console -> Search Bar -> Virtual networks -> Select The Virtual networks -> Select The Virtual network -> 
-Click On Settings On Left menu -> Click On Subnets -> Subnets -> Name -> Name -> Add
+Click On Settings On Left menu -> Click On Subnets -> Subnets -> Name -> Name(Remove The Default Name) -> Add
 
 
 
