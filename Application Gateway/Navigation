@@ -1,0 +1,25 @@
+Step 1. Create The Subnet For Application Gateway
+
+Create The Virtual Machine by using the vm-setup-script with Go To Networking Tab -> Public IP(None) 
+
+Login Azure Console -> Search Bar -> Virtual networks -> Select The Virtual networks -> Select The Virtual network -> 
+Click On Settings On Left menu -> Click On Subnets -> Subnets -> Name -> Name -> Add
+
+
+
+Step 2. Create The Public IP For Application Gateway
+
+Search Bar -> Virtual networks -> Select The Virtual networks -> Go To Public IP addresses -> Create -> 
+Select The Resource group -> Name -> Name -> Go To Review + create Tab -> Create
+
+
+
+Step 3. Create The Application Gateway
+
+Search Bar -> Application Gateway -> Select The Application Gateway -> Select The Resource group -> Application gateway name -> 
+Name -> Virtual network(Select The Virtual network) -> Subnet(Select The Subnet) -> Click On Next : Frontends > -> 
+Public IPv4 address(Select The Public-IP) -> Next : Backends > -> Add a backend pool -> Name -> Name -> 
+Target type(Select The Virtual machine) -> Target(Select The Target) -> Add -> Next : Configuration > -> 
+Routing rules(Click On Add a routing rule) -> Rule name -> Name -> Priority(1) -> Listener name -> Name -> Name -> 
+Click On Backend targets -> Backend target(Select The Backend target) -> Backend settings(Add new) -> 
+Backend settings name -> Name -> Add -> Next : Tags > ->  Next :  Review + create > -> Create
